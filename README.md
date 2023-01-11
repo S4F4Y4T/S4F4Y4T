@@ -1,4 +1,6 @@
 <h1 align="center">Safayat</h1>
+![illlustrations](https://user-images.githubusercontent.com/46479689/211731991-cbd6135c-0365-48b7-90a7-e76c6a43597c.svg)
+
 <h3 align="center">A passionate web application developer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=s4f4y4t&label=Profile%20views&color=0e75b6&style=flat" alt="s4f4y4t" /> </p>

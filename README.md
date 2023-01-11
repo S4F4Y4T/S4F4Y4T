@@ -1,6 +1,7 @@
 <h1 align="center">Safayat</h1>
 
-  ![illlustrations (2)](https://user-images.githubusercontent.com/46479689/211732937-d76bfdd7-046d-4d6b-8535-87600da6d994.svg)
+  ![illlustrations (2)](https://user-images.githubusercontent.com/46479689/211733894-16daa637-25f9-432a-b7e1-0689c39aef5a.svg)
+
 
 
 <h3 align="center">A passionate web application developer</h3>

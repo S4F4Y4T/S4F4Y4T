@@ -5,7 +5,7 @@
 <h3 align="center">Web Application Developer</h3>
 
 ## About Me
-I am Safayat Mahmud. A Web application developer with passion for creating scalable solutions which makes real impact on the world. I have experience of delivering high-quality software that meets the needs of users and businesses. I am a PHP fanboy but knows to use other technologies too.
+I am Safayat Mahmud. A Web application developer with passion for creating scalable solutions which makes real impact on the world. I have experience of turning business problems into software logic. A PHP fanboy but knows to use other technologies too.
 
 
 ## 🔗 Links

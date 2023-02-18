@@ -21,13 +21,13 @@ I am Safayat Mahmud. A Web application developer with passion for creating scala
 Basic Front-end Development, Web Application Development, Database Design, Rest API, Web Security, Problem Solving, Third Party plugin or API Integration, Documentation Writing, Deployment
 
 ### Language
-HTML, CSS, Javascript, PHP, SCSS
+HTML, CSS, Javascript, PHP
 
 ### Framework & Plugin
 Bootstrap, Jquery, Codeigniter, Datatable, Select2, Form-Repeater, Ajax
 
-### Tools
-Git, NPM, Linux, BEM, 7-1 Pattern
+### Tools & Technologies
+Git, NPM, Linux, BEM, 7-1 Pattern, SASS
 
 <p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=s4f4y4t&show_icons=true&locale=en&layout=compact" alt="s4f4y4t" /></p>
 

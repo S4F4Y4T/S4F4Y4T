@@ -25,15 +25,17 @@ class portfolio extends life
     return [
       'name' => 'Safayat Mahmud',
       'title' => 'Web Application Developer',
-      'about' => 'Web application developer passionate about creating scalable solutions that makes differences on the world.'
+      'about' => 'I am Safayat Mahmud. A Web application developer passionate about creating scalable solutions that makes differences on the world. I specialize in assisting businesses in resolving their challenges through technology.'
     ];
   }
 
   private function skill()
   {
     return [
-      'language' => ['html', 'css', 'javascript', 'PHP', 'sql', 'json'],
-      'framework & library' => ['codeigniter','bootstrap', 'Jquery', 'ajax']
+      'technical' => ['Frontend Development', 'Custom application Development', 'Database Design', 'API Development & Integration', 'Web Security', 'Deployment'],
+      'language' => ['html', 'css', 'javascript', 'PHP', 'mysql', 'json'],
+      'framework & library' => ['codeigniter','bootstrap', 'Jquery', 'ajax', 'laravel'],
+      'Tools' => ['git', 'npm', 'linux']
     ];
   }
   

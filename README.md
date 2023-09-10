@@ -77,7 +77,7 @@ class portfolio extends life
 
   private function skill()
   {
-    return ['Frontend Development', 'Custom application Development', 'Database Design', 'API Development & Integration', 'Web Security', 'Deployment','html', 'css', 'javascript', 'PHP', 'mysql', 'json','codeigniter','bootstrap', 'Jquery', 'scss', 'ajax', 'laravel','git', 'npm', 'linux'];
+    return ['Frontend Development', 'Custom application Development', 'Database Design', 'API Development & Integration', 'Web Security', 'Deployment','html', 'css', 'javascript', 'PHP', 'mysql', 'json','codeigniter', 'laravel','bootstrap', 'tailwindcss', 'Jquery', 'scss', 'ajax', 'laravel','git', 'npm', 'linux', 'react', 'firebase', 'redux-toolkit'];
   }
   
 }

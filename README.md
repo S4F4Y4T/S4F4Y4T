@@ -52,7 +52,7 @@ Safayat Mahmud
 
 ```php
 
-class portfolio extends life
+class Portfolio extends Life
 {
   public function __constructor()
   {
@@ -62,22 +62,29 @@ class portfolio extends life
 
   public function index()
   {
-    $this->about();
-    $this->skill();
+    return array_merge(
+        $this->about(),
+        ['Skill' => $this->skill()]
+    )
+    
   }
 
   private function about()
   {
     return [
       'name' => 'Safayat Mahmud',
-      'title' => 'Web Application Developer',
-      'about' => 'I am Safayat Mahmud. A Web application developer passionate about creating scalable solutions that makes differences on the world. I specialize in assisting businesses in resolving their challenges through technology.'
+      'title' => 'Software Developer',
+      'about' => 'I am Safayat Mahmud. A Web application developer passionate about creating highly scalable solutions that solve real life problems. I specialize in assisting businesses in resolving their challenges through technology.'
     ];
   }
 
   private function skill()
   {
-    return ['Frontend Development', 'Custom application Development', 'Database Design', 'API Development & Integration', 'Web Security', 'Deployment','html', 'css', 'javascript', 'PHP', 'mysql', 'json','codeigniter', 'laravel','bootstrap', 'tailwindcss', 'Jquery', 'scss', 'ajax', 'laravel','git', 'npm', 'linux', 'react', 'firebase', 'redux-toolkit'];
+    return [
+        'Language' => ['PHP', 'JAVASCRIPT'],
+        'Framework' => ['Laravel, 'Codeigniter', 'Expressjs', 'Tailwindcss', 'Vuejs'],
+        'Others' => ['Mysql', 'Mongodb', 'Redis', 'Rest Api', 'JWT', 'Apache', 'CI/CD', 'Server Management', 'Web Security', 'Socket']
+    ];
   }
   
 }

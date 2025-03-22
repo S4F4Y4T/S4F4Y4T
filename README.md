@@ -1,5 +1,4 @@
 <!---<p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/46479689/211733894-16daa637-25f9-432a-b7e1-0689c39aef5a.svg" height="350px" ></p>--->
 <p align="center">
 <img align="center" src="https://github.com/S4F4Y4T/S4F4Y4T/assets/46479689/aadfa982-cff2-4391-b711-8bd22b798a90" height="350px" ></p>
 <!---<p align="center">
@@ -16,13 +15,7 @@ Safayat Mahmud
 <img height="24" alt="Website" src="https://raw.githubusercontent.com/S4F4Y4T/S4F4Y4T/master/icons/globe.svg" width="100%">
 </picture>
 </a>&nbsp;&nbsp;
-<a href="https://github.com/S4F4Y4T">
-<picture height="24">
-<source height="24" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/S4F4Y4T/S4F4Y4T/master/icons/github-white.svg">
-<source height="24" media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/S4F4Y4T/S4F4Y4T/master/icons/github.svg">
-<img height="24" alt="Github" src="https://raw.githubusercontent.com/S4F4Y4T/S4F4Y4T/master/icons/github.svg" width="100%">
-</picture>
-</a>&nbsp;&nbsp; 
+
 <a href="https://www.linkedin.com/in/S4F4Y4T/">
 <picture height="24">
 <source height="24" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/S4F4Y4T/S4F4Y4T/master/icons/linkedin-white.svg">
@@ -65,7 +58,7 @@ class Portfolio extends Life
     return array_merge(
         $this->about(),
         ['Skill' => $this->skill()]
-    )
+    );
     
   }
 
@@ -73,17 +66,15 @@ class Portfolio extends Life
   {
     return [
       'name' => 'Safayat Mahmud',
-      'title' => 'Software Developer',
-      'about' => 'I am Safayat Mahmud. A Web application developer passionate about creating highly scalable solutions that solve real life problems. I specialize in assisting businesses in resolving their challenges through technology.'
+      'title' => 'Software Engineer',
+      'about' => 'My journey into tech started with cybersecurity, where I was fascinated by breaking and securing systems. But as I dived deeper, my curiosity grew about what happens behind the scenes—how applications are built and operate. That curiosity led me to software development. As I deepened my skills, I discovered DevOps—the perfect combination of development, automation, and operations. Now, I focus on streamlining workflows, optimizing infrastructure, and ensuring seamless deployments. My passion lies in building reliable, efficient, and scalable systems that empower businesses to innovate faster.'
     ];
   }
 
   private function skill()
   {
     return [
-        'Language' => ['PHP', 'JAVASCRIPT'],
-        'Framework' => ['Laravel, 'Codeigniter', 'Expressjs', 'Tailwindcss', 'Vuejs'],
-        'Others' => ['Mysql', 'Mongodb', 'Redis', 'Rest Api', 'JWT', 'Apache', 'CI/CD', 'Server Management', 'Web Security', 'Socket']
+        'Software Development', 'Devops', 'Web Security'
     ];
   }
   

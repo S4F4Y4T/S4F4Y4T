@@ -47,24 +47,23 @@ Safayat Mahmud
 
 class Portfolio extends Life
 {
-  public function __constructor()
-  {
-    parent::__construct();
-  }
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
-
-  public function __invoke()
-  {
-    return [
-      'name'  => 'Safayat Mahmud',
-      'title' => 'Senior Software Engineer',
-      'about' => 'My journey into tech started with cybersecurity, where I was fascinated by breaking and securing systems. But as I dived deeper, my curiosity grew about what happens behind the scenes—how applications are built and operate. That                    curiosity led me to software development. As I deepened my skills, I discovered DevOps—the perfect combination of development, automation, and operations. Now, I focus on streamlining workflows, optimizing infrastructure, and                       ensuring seamless deployments. My passion lies in building reliable, efficient, and scalable systems that empower businesses to innovate faster.'
-      'sills' => ['Software Development', 'Devops', 'Web Security']
-      'tech stacks' => ['PHP', 'Laravel', 'GO', 'Node', 'Express', 'React', 'Nextjs', 'Vue', 'Docker', 'AWS', 'Mysql', 'Mongodb']
-    ];
-    
-  }
+    public function __invoke()
+    {
+        return [
+            'name'        => 'Safayat Mahmud',
+            'title'       => 'Senior Software Engineer',
+            'about'       => 'My journey into tech started with cybersecurity, where I was fascinated by breaking and securing systems. But as I dived deeper, my curiosity grew about what happens behind the scenes—how applications are built and                                  operate. That curiosity led me to software development. As I deepened my skills, I discovered DevOps—the perfect combination of development, automation, and operations. Now, I focus on streamlining workflows,                                        optimizing infrastructure, and ensuring seamless deployments. My passion lies in building reliable, efficient, and scalable systems that empower businesses to innovate faster.',
+            'skills'      => ['Software Development', 'DevOps', 'Web Security'],
+            'tech_stacks' => ['PHP', 'Laravel', 'Go', 'Node', 'Express', 'React', 'Next.js', 'Vue', 'Docker', 'AWS', 'MySQL', 'MongoDB'],
+        ];
+    }
 }
+
 
 
 ```
